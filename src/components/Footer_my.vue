@@ -26,6 +26,41 @@
                     <span class="text-caption">Relaxation Tour</span><br />
                     <span class="text-caption">Family Friendly Tour</span><br />
                 </v-col>
+                <v-col cols="12" sm="3">
+                    <h4 class="mt-2">Contact Info</h4>
+                        <span class="text-caption">
+                            <v-icon class="mr-1">mdi mdi-phone</v-icon> 
+                            88130-589-745-6987<br />
+                            +1655-456-523
+                        </span><br />
+                        <span class="text-caption">
+                            <v-icon class="mr-1">mdi mdi-clock-time-eight</v-icon> 
+                            Mon-Fri
+                            09:00-18:00<br />
+                            except public holidays
+                        </span><br />
+                        <span class="text-caption">
+                            <v-icon class="mr-1">mdi mdi-map-marker</v-icon> 
+                            25/2 Vokte
+                            Street<br />
+                            09:00-18:00<br />
+                            Building Melborn City
+                        </span><br />
+                </v-col>
+                <v-col cols="12" sm="3">
+                    <h4 class="mt-2">Gallery</h4>
+                    <v-row>
+                        <v-col v-for="(hotel, i) in hoteles" :key="i" class="d-flex child-flex" cols="4">
+                            <v-img 
+                                :src="hotel.image"
+                                aspect-ratio="1"
+                                cover
+                                class="bg-grey-lighten-2"
+                            >
+                            </v-img>
+                        </v-col>
+                    </v-row> 
+                </v-col>
 
             </v-row>
         </div>
