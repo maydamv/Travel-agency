@@ -513,4 +513,17 @@
     margin-left: 100px;
     margin-top:70px;
 }
+.par1 {
+    color:"AAA1B4";
+    margin-left:100px;
+}
+.bt1 {
+    margin-left: 100px;
+}
+.img1 {
+    width: 1000px !important;
+    height: 1000px !important;
+    z-index: 1;
+    margin-top: -200px;
+}
 </style>
