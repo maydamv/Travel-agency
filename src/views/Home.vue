@@ -367,10 +367,10 @@
 </template>
 
 <script setup>
-import Navbar from "@/components/Navbar.vue"
-    import Footer from "@/components/Footer_my.vue"
+    import Navbar from "@/components/Navbar.vue"
     import {ref} from "vue"
-import Footer_my from "@/components/Footer_my.vue";
+    import Footer_my from "@/components/Footer_my.vue";
+
     const tab = ref(null);
     const model = ref(null);
     const icons = ref(["mdi-rewind","mdi-play", "mdi-fast-forward"]);
@@ -506,4 +506,11 @@ import Footer_my from "@/components/Footer_my.vue";
 </script>
 
 <style scoped>
+.title1 {
+    color: #1f3347;
+    font-size:50px;
+    font-style:bold;
+    margin-left: 100px;
+    margin-top:70px;
+}
 </style>
