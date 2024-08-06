@@ -18,6 +18,14 @@
                     <v-icon class="mr-1">mdi mdi-whatsapp</v-icon>
                     <v-icon class="mr-1">mdi mdi-linkedin</v-icon>
                 </v-col>
+                <v-col cols="12" sm="3">
+                    <h4 class="mt-2">Tour Type</h4>
+                    <span class="text-caption">Adventure Tour</span><br />
+                    <span class="text-caption">Group Tour</span><br />
+                    <span class="text-caption">Seasonal Tour</span><br />
+                    <span class="text-caption">Relaxation Tour</span><br />
+                    <span class="text-caption">Family Friendly Tour</span><br />
+                </v-col>
 
             </v-row>
         </div>
