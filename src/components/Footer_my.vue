@@ -80,20 +80,20 @@
                 image: "/public/7.jpg"
             },
             {
-                image: "/public/16.jpg"
+                image: "/public/20.jpg"
             },
             {
-                image: "/public/20.jpg"
+                image: "/public/10.jpg"
             },
             {
                 image: "/public/23.jpg"
             },
             {
-                image: "/public/17.jpg"
+                image: "/public/16.jpg"
             },
             {
-                image: "/public/10.jpg"
-            }
+                image: "/public/17.jpg"
+            } 
         ]);
 </script>
     
