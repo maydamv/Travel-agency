@@ -98,10 +98,10 @@
 </script>
     
 <style scoped>
-    v-footer {
-        padding: 0 0 !important;
-    }
-    .bgTop {
-        background-color: #f4f6fa;
-    }
+v-footer {
+    padding: 0 0 !important;
+}
+.bgTop {
+    background-color: #f4f6fa;
+}
 </style>

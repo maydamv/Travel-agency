@@ -547,4 +547,11 @@
     position: absolute;
     width: 100%;
 }
+.ligne1 {
+    margin-top: 150px;
+}
+.ligne2 {
+    margin-top: 10px;
+    padding: 0 250px 0 250px;
+}
 </style>
