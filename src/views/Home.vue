@@ -362,13 +362,15 @@
         </v-row>
     </v-container>
 </v-main>
+<Footer_my/>
 
 </template>
 
 <script setup>
 import Navbar from "@/components/Navbar.vue"
-    import Footer from "@/components/Footer.vue"
+    import Footer from "@/components/Footer_my.vue"
     import {ref} from "vue"
+import Footer_my from "@/components/Footer_my.vue";
     const tab = ref(null);
     const model = ref(null);
     const icons = ref(["mdi-rewind","mdi-play", "mdi-fast-forward"]);

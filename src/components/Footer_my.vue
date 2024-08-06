@@ -1,7 +1,25 @@
 <template>
     <v-footer color="#FFFFFF" class="d-flex flex-column">
         <div class="d-flex w-100 px-6 pb-10 pt-8">
+            <v-row>
+                <v-col cols="12" sm="3">
+                    <h4 class="mt-2">Explore</h4>
+                    <span class="text-caption">
+                        Continually productize<br />
+                        compelling dome packed with<br />
+                        all Elated utilize website and
+                        <br />creating supply next-generation
+                    </span>
+                    <br />
+                    <h4 class="mt-2">Follow Us On</h4>
+                    <v-icon class="mr-1">mdi mdi-facebook</v-icon>
+                    <v-icon class="mr-1">mdi mdi-twitter</v-icon>
+                    <v-icon class="mr-1">mdi mdi-instagram</v-icon>
+                    <v-icon class="mr-1">mdi mdi-whatsapp</v-icon>
+                    <v-icon class="mr-1">mdi mdi-linkedin</v-icon>
+                </v-col>
 
+            </v-row>
         </div>
         <div class="px-4 py-8 bgTop text-center w-100 text-black">
             <v-icon class="mr-2" color="black">mdi mdi-copyright</v-icon>
