@@ -61,7 +61,6 @@
                         </v-col>
                     </v-row> 
                 </v-col>
-
             </v-row>
         </div>
         <div class="px-4 py-8 bgTop text-center w-100 text-black">
@@ -99,4 +98,10 @@
 </script>
     
 <style scoped>
+    v-footer {
+        padding: 0 0 !important;
+    }
+    .bgTop {
+        background-color: #f4f6fa;
+    }
 </style>
