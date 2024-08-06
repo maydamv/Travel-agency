@@ -1,7 +1,6 @@
 <template>
 
 <Navbar/>
-
 <v-main>
     <v-container>
         <v-row>
@@ -345,10 +344,24 @@
                     </v-slide-group>
                 </v-sheet>
             </v-col>
+            <v-col cols="12" sm="12">
+               <v-card>
+                    <v-img src="/IMG-20240725-WA0075.jpg" cover height="100%">
+                        <div class="d-flex justify-center ligne1">
+                            <h1>Sign up for our newsletter</h1>
+                        </div>
+                        <div class="d-flex justify-center ligne2">
+                            <v-text-field density="compact" placeholder="Enter your e-mail here" variant="solo-inverted" color="#393E50" rounded="0"></v-text-field>
+                            <v-btn class="text-none tp" color="indigo-lighten-1" size="large" variant="flat" rounded="0" elevation="12">
+                                Subscribe Now
+                            </v-btn>
+                        </div>
+                    </v-img>
+               </v-card> 
+            </v-col>
         </v-row>
     </v-container>
 </v-main>
-
 
 </template>
 
