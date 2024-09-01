@@ -1,11 +1,11 @@
 <template>
-
 <Navbar/>
-<v-main>
+
+<div>
     <v-container>
         <v-row>
             <v-col cols="12">
-                <v-row>
+                <v-row class="d-flex align-center">
                     <v-col cols="12" sm="6">
                         <h1 class="title1">
                             It's a Big World <br/>
@@ -17,7 +17,7 @@
                                 leveraged without continualliery aggregate fricctionle
                                 <br/>ou wellies richard, and very customize continually.
                         </p>
-                        <v-btn class="text-noe nt-8 bt1" color="indigo-lighten-1" size="x-large" variant="flat" rounded="0">
+                        <v-btn class="text-none mt-8 bt1" color="indigo-lighten-1" size="x-large" variant="flat" rounded="0">
                             Get Exploration
                         </v-btn>
                         <v-btn class="text-none ml-2 text-indigo-lighten-1 mt-8" size="x-large" variant="flat" rounded="0">
@@ -25,7 +25,9 @@
                         </v-btn>
                     </v-col>
                     <v-col cols="12" sm="6">
-                        <v-img src="/public/2.jpg" class="img1"></v-img>
+                        <div>
+                            <v-img src="/public/maleta4.jpg" class="img1" ></v-img> 
+                        </div>
                     </v-col>
                 </v-row>
             </v-col>
@@ -50,7 +52,7 @@
                             <v-container fluid>
                                 <v-row>
                                     <v-col cols="12" sm="2">
-                                        <div class="text-subtile-1 text-medium-emphasis">Your Destination</div>
+                                        <div class="text-subtile-1 text-medium-emphasis">Destination</div>
                                         <v-select density="compact" placeholder="Destination" :items="[
                                             'California',
                                             'Colorado',
@@ -136,7 +138,7 @@
                                 </v-card>  
                                 </v-hover>
                             </v-col>
-                            <v-col cols="4" class="d-flex flex-column">
+                            <v-col class="d-flex flex-column">
                                 <v-row>
                                     <v-col cols="12">
                                         <v-hover v-slot="{ isHovering, props}">
@@ -222,8 +224,8 @@
                 <h1 class="text-center">Checkout Our Packages</h1>
                 <v-row justify="center">
                     <v-col cols="12" sm="10">
-                        <v-row>
-                            <v-col cols="12" sm="3" v-for="(popular,i) in populars" :key="i">
+                        <v-row class="d-flex justify-center">
+                            <v-col cols="12" lg="3" md="4" sm="6" v-for="(popular,i) in populars" :key="i">
                                 <v-hover v-slot="{isHovering, props}">
                                     <v-card class="mx-auto" color="grey-lighten-4" max-width="600" v-bind="props">
                                         <v-img :aspect-ratio="16 /9" cover :src="popular.image">
@@ -288,7 +290,7 @@
                 <v-row justify="center">
                     <v-col cols="12" sm="10">
                        <v-row>
-                            <v-col cols="12" sm="3" v-for="(hotel, i) in hotels" :key="i">
+                            <v-col cols="12" lg="3" md="4" sm="6" v-for="(hotel, i) in hotels" :key="i">
                                 <v-hover v-slot="{isHovering, props}">
                                     <v-card class="mx-auto" color="grey-lighten-4" max-width="600" v-bind="props">
                                         <v-img :aspect-ratio="16 /9" cover :src="hotel.image">
@@ -346,22 +348,25 @@
             </v-col>
             <v-col cols="12" sm="12">
                <v-card>
-                    <v-img src="/IMG-20240725-WA0075.jpg" cover height="100%">
-                        <div class="d-flex justify-center ligne1">
-                            <h1>Sign up for our newsletter</h1>
-                        </div>
-                        <div class="d-flex justify-center ligne2">
-                            <v-text-field density="compact" placeholder="Enter your e-mail here" variant="solo-inverted" color="#393E50" rounded="0"></v-text-field>
-                            <v-btn class="text-none tp" color="indigo-lighten-1" size="large" variant="flat" rounded="0" elevation="12">
-                                Subscribe Now
-                            </v-btn>
-                        </div>
-                    </v-img>
+                    <div>
+                        <v-img src="/IMG-20240725-WA0075.jpg" cover height="100%">
+                            <div class="d-flex justify-center ligne1">
+                                <h1>Sign up for our newsletter</h1>
+                            </div>
+                            <div class="d-flex justify-center ligne2">
+                                <v-text-field density="compact" placeholder="Enter your e-mail here" variant="solo-inverted" color="#393E50" rounded="0"></v-text-field>
+                                <v-btn class="text-none tp" color="indigo-lighten-1" size="large" variant="flat" rounded="0" elevation="12">
+                                    Subscribe Now
+                                </v-btn>
+                            </div>
+                        </v-img>
+                    </div>
                </v-card> 
             </v-col>
         </v-row>
     </v-container>
-</v-main>
+</div>
+
 <Footer_my/>
 
 </template>
@@ -510,8 +515,8 @@
     color: #1f3347;
     font-size:50px;
     font-style:bold;
-    margin-left: 100px;
-    margin-top:70px;
+    /*margin-left: 100px;
+    margin-top:70px;*/
 }
 .par1 {
     color:"AAA1B4";
@@ -521,10 +526,8 @@
     margin-left: 100px;
 }
 .img1 {
-    width: 1000px !important;
-    height: 1000px !important;
-    z-index: 1;
-    margin-top: -200px;
+    width: 100% !important;
+    height: 100% !important;
 }
 .v-card.card1 {
     transition: opacity 0.4s ease-in-out;
@@ -553,5 +556,6 @@
 .ligne2 {
     margin-top: 10px;
     padding: 0 250px 0 250px;
+    width: 100%;
 }
 </style>
