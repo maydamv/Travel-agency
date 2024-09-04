@@ -17,12 +17,14 @@
                                 leveraged without continualliery aggregate fricctionle
                                 <br/>ou wellies richard, and very customize continually.
                         </p>
-                        <v-btn class="text-none mt-8 bt1" color="indigo-lighten-1" size="x-large" variant="flat" rounded="0">
+                        <div class="d-flex flex-wrap justify-center">
+                            <v-btn class="text-none mt-8 bt1" color="indigo-lighten-1" size="x-large" variant="flat" rounded="0">
                             Get Exploration
-                        </v-btn>
-                        <v-btn class="text-none ml-2 text-indigo-lighten-1 mt-8" size="x-large" variant="flat" rounded="0">
-                            Read More
-                        </v-btn>
+                            </v-btn>
+                            <v-btn class="text-none ml-2 text-indigo-lighten-1 mt-8" size="x-large" variant="flat" rounded="0">
+                                Read More
+                            </v-btn>
+                        </div>   
                     </v-col>
                     <v-col cols="12" sm="6">
                         <div>
