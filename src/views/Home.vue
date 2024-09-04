@@ -265,7 +265,7 @@
 
             <v-col cols="12" sm="12">
                 <h4 class="text-center text-indigo-lighten-1">Inventore Varitatis</h4>
-                <h1 class="text-center">Select Offres For Travelings</h1>
+                <h1 class="text-center">Select Offers For Travelings</h1>
                 <v-row justify="center">
                     <v-col cols="12" sm="10">
                         <v-row>
@@ -289,7 +289,7 @@
                 <h1 class="text-center">Most Popular Hotel</h1>
                 <v-row justify="center">
                     <v-col cols="12" sm="10">
-                       <v-row>
+                       <v-row class="d-flex justify-center">
                             <v-col cols="12" lg="3" md="4" sm="6" v-for="(hotel, i) in hotels" :key="i">
                                 <v-hover v-slot="{isHovering, props}">
                                     <v-card class="mx-auto" color="grey-lighten-4" max-width="600" v-bind="props">
@@ -348,19 +348,20 @@
             </v-col>
             <v-col cols="12" sm="12">
                <v-card>
-                    <div>
                         <v-img src="/IMG-20240725-WA0075.jpg" cover height="100%">
-                            <div class="d-flex justify-center ligne1">
-                                <h1>Sign up for our newsletter</h1>
-                            </div>
-                            <div class="d-flex justify-center ligne2">
-                                <v-text-field density="compact" placeholder="Enter your e-mail here" variant="solo-inverted" color="#393E50" rounded="0"></v-text-field>
-                                <v-btn class="text-none tp" color="indigo-lighten-1" size="large" variant="flat" rounded="0" elevation="12">
-                                    Subscribe Now
-                                </v-btn>
+                            <div class="d-flex flex-column justify-center align-center h-100">
+                                <div class="d-flex">
+                                    <h1>Sign up for our newsletter</h1>
+                                </div>
+                                <div class="d-flex w-100 px-10" style="height: min-content">
+                                    <v-text-field density="compact" placeholder="Enter your e-mail here" variant="solo-inverted" color="#393E50" rounded="0" class="h-100"></v-text-field>
+                                    <v-btn class="text-none tp" color="indigo-lighten-1" size="large" variant="flat" rounded="0" elevation="12">
+                                        Subscribe Now
+                                    </v-btn>
+                                </div>
                             </div>
                         </v-img>
-                    </div>
+                    
                </v-card> 
             </v-col>
         </v-row>
@@ -550,12 +551,5 @@
     position: absolute;
     width: 100%;
 }
-.ligne1 {
-    margin-top: 150px;
-}
-.ligne2 {
-    margin-top: 10px;
-    padding: 0 250px 0 250px;
-    width: 100%;
-}
+
 </style>
