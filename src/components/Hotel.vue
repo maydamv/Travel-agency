@@ -84,5 +84,12 @@
 </script>
 
 <style>
-
+.v-card--reveal {
+    align-items: end;
+    bottom: 0;
+    justify-content: start;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+}
 </style>

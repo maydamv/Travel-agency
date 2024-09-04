@@ -115,10 +115,20 @@
     import {ref} from "vue"
     const icons = ref(["mdi-rewind","mdi-play", "mdi-fast-forward"]);
     const transparent = "rgba(255, 255, 255, 0)"
-    
-    
 </script>
 
 <style>
-
+.v-card.card1 {
+    transition: opacity 0.4s ease-in-out;
+}
+.v-card-card1:not(.on-hover) {
+    opacity: 0.6;
+}
+.show-btns {
+    color:rgba(255, 255, 255, 1) !important;
+}
+.top{
+    margin-top:100%;
+    margin-left: 20px;
+}
 </style>

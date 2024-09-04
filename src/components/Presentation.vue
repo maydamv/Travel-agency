@@ -28,12 +28,25 @@
     </v-row>
 </template>
 
-<script setup>
-    import {ref} from "vue"
-    
+<script setup> 
     
 </script>
 
 <style>
-
+.title1 {
+    color: #1f3347;
+    font-size:50px;
+    font-style:bold;
+}
+.par1 {
+    color:"AAA1B4";
+    margin-left:100px;
+}
+.bt1 {
+    margin-left: 100px;
+}
+.img1 {
+    width: 100% !important;
+    height: 100% !important;
+}
 </style>

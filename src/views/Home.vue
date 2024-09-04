@@ -1,6 +1,5 @@
 <template>
 <Navbar/>
-
 <div>
     <v-container>
         <v-row>
@@ -48,42 +47,4 @@
 </script>
 
 <style scoped>
-.title1 {
-    color: #1f3347;
-    font-size:50px;
-    font-style:bold;
-}
-.par1 {
-    color:"AAA1B4";
-    margin-left:100px;
-}
-.bt1 {
-    margin-left: 100px;
-}
-.img1 {
-    width: 100% !important;
-    height: 100% !important;
-}
-.v-card.card1 {
-    transition: opacity 0.4s ease-in-out;
-}
-.v-card-card1:not(.on-hover) {
-    opacity: 0.6;
-}
-.show-btns {
-    color:rgba(255, 255, 255, 1) !important;
-}
-.top{
-    margin-top:100%;
-    margin-left: 20px;
-}
-.v-card--reveal {
-    align-items: end;
-    bottom: 0;
-    justify-content: start;
-    opacity: 0.9;
-    position: absolute;
-    width: 100%;
-}
-
 </style>
