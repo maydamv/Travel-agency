@@ -5,11 +5,11 @@ A website for a travel agency, with a responsive design for all kind of devices.
 
 ## Design
 
-![intro](public/intro.jpg)
-![places](public/places.jpg)
-![offers](public/offers.jpg)
-![galery](public/galery.jpg)
-![footer](public/footer.jpg)
+![intro](public/intro.png)
+![places](public/places.png)
+![offers](public/offers.png)
+![galery](public/galery.png)
+![footer](public/footer.png)
 
 ## Build Setup
 
