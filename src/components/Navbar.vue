@@ -5,7 +5,7 @@
             <v-app-bar-title>Explore</v-app-bar-title>
         </div>
         <v-spacer></v-spacer>
-        <div class="d-none d-md-block">
+        <div class="d-none d-md-block"><!-- no muestro este div, solo en las pantallas de medium hacia arriba -->
             <v-menu transition="slide-x-transition">
                 <template v-slot:activator="{props}">
                     <v-btn color="#6347F9" v-bind="props">Home +</v-btn>
@@ -61,7 +61,7 @@
                 Get Exploration
             </v-btn>
         </div>
-        <div class="d-block d-md-none">
+        <div class="d-block d-md-none"><!-- voy a mostrar este div, y lo oculto en las pantallas de medium hacia arriba -->
             <v-menu>
                 <template v-slot:activator="{ props }">
                     <v-btn icon="mdi-dots-vertical" v-bind="props"></v-btn>
@@ -75,7 +75,7 @@
                         <v-list-item-title>{{ item.title }}</v-list-item-title>
                     </v-list-item>
                 </v-list>
-          </v-menu>
+            </v-menu>
         </div>
 
     </v-app-bar>
